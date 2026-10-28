@@ -1,5 +1,19 @@
 # Changelog
 
+## [12.2.2](https://github.com/npm/cli/compare/v12.2.1...v12.2.2) (2026-10-28)
+### Bug Fixes
+* [`085f9f6`](https://github.com/npm/cli/commit/085f9f61ba041b9bc3e4d91a574321bfdb6e074f) [#9798](https://github.com/npm/cli/pull/9798) patch: stop a workdir cleanup race from masking update errors (#9798) (@manzoorwanijk)
+### Documentation
+* [`52f3093`](https://github.com/npm/cli/commit/52f30938bd372dac25667f38fb771f5fe825e6e6) [#10108](https://github.com/npm/cli/pull/10108) propose Markdown conventions in CONTRIBUTING (#10108) (@ump45nose)
+### Dependencies
+* [`158315c`](https://github.com/npm/cli/commit/158315cd9d83768f2c7bd2e68281cc7dca2d7352) [#10152](https://github.com/npm/cli/pull/10152) `pacote@22.0.1` (@martinrrm, @Copilot)
+* [`820b297`](https://github.com/npm/cli/commit/820b29722a3b548f8ee525944e2d37fdab735853) [#10152](https://github.com/npm/cli/pull/10152) `promise-spawn@10.0.1` (@martinrrm, @Copilot)
+* [`9196a4c`](https://github.com/npm/cli/commit/9196a4c3397914668abf0bc5764597fb1001877d) [#10152](https://github.com/npm/cli/pull/10152) `bin-links@7.0.1` (@martinrrm, @Copilot)
+* [`b34bba5`](https://github.com/npm/cli/commit/b34bba52a4cf068ef695eef2d698e8e01b08b841) [#10170](https://github.com/npm/cli/pull/10170) `ip-address@10.7.5`
+* [`9a7e3b6`](https://github.com/npm/cli/commit/9a7e3b6588fa6217e6dc7b4354e2e5be55be4fac) [#10170](https://github.com/npm/cli/pull/10170) `undici@6.29.1`
+### Chores
+* [`311ff5e`](https://github.com/npm/cli/commit/311ff5effbb1f96181c89a1ce6ebfe0c369e1ec1) [#10151](https://github.com/npm/cli/pull/10151) align release integration with supported Node versions (#10151) (@reggi, @Copilot)
+
 ## [12.2.1](https://github.com/npm/cli/compare/v12.2.0...v12.2.1) (2026-10-14)
 ### Bug Fixes
 * [`b317f16`](https://github.com/npm/cli/commit/b317f16c80df02ea3628cfa77170d5ae9b59720c) [#9941](https://github.com/npm/cli/pull/9941) write registry allowScripts keys under install-strategy=linked (#9941) (@manzoorwanijk)
